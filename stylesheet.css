@@ -1,0 +1,759 @@
+html{
+    font-size: 14px;
+    font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+    color: rgb(34, 34, 34);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: url(/img/top-hero.png);
+    background-position: right top;
+    background-repeat:no-repeat;
+    background-size: auto 600px;
+    position: relative;
+}
+.inner img{
+    margin-top: 20px;
+    width: 183px;
+    padding-top: 10px;
+}
+.inner{
+    display: flex;
+    max-width: 1050px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 18px 80px;
+}
+nav{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding-right: 25px;
+}
+li>h2, h3{
+    font-size: 12px;
+    margin: 0;
+}
+.console{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 15px 10px 15px;
+    background-color: #F79314;
+    border-radius: 25px;
+}
+.top-wrapper{
+    display: block;
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 132px;
+    display: flex;
+}
+.top-message img{
+    height: 36px;
+    margin-bottom: 27px;
+}
+.top-message p{
+    font-size: 20px;
+    font-weight: bold;
+    width: 350px;
+}
+.top-message span{
+    color: #F79314;
+}
+.big-console{
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 18px 80px;
+    background-color: #F79314;
+    border-radius: 25px;
+}
+.no1{
+    height: 152px;
+}
+.shoppers-inner{
+    max-width: 1050px;
+    margin: auto;
+    margin-left: auto;
+}
+.shoppers{
+    font-size: 8px;
+    color: #888888;
+    max-width: 520px;
+    margin: 135px 0 35px 0;
+}
+.about{
+    height: 325px;
+    background-color: #F79314;
+}
+.about-inner{
+    max-width: 1050px;
+    height: 325px;
+    margin: 0 auto;
+    display: flex;
+}
+.about-text{
+    display: inline-block;
+    width: 545px;
+    margin-top: 70px;
+}
+.about h1{
+    color:white;
+    font-weight: 1500;
+    font-size: 33px;
+    margin-bottom: 16px;
+}
+.about h1>span{
+    font-size: 44px;
+}
+.about-text p{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.about a{
+    display: inline-block;
+    width: 325px;
+    text-decoration: none;
+    color:  #F79314;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 0px;
+    text-align: center;
+    margin: 135px 0 137px 170px;
+}
+.about a>span{
+    font-size: 17px;
+    letter-spacing: 6px;
+}
+/* POTEPAN CAMPの特徴 */
+.reason{
+    display: flex;
+    height: 2330px;
+}
+.main-inner{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.reason-title{
+    text-align: center;
+}
+.reason-title h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.reason-title h1>span{
+    font-size: 50px;
+    font-family: Lato;
+    font-weight: bold;
+}
+.reason-title p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 90px;
+    position: relative;
+}
+.reason-title p:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -25px;/*線の上下位置*/
+    display: inline-block;
+    width: 50px;/*線の長さ*/
+    height: 7px;/*線の太さ*/
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #F79314;/*線の色*/
+}
+/* 01豊富な転職実績*/
+.reason-number{
+    font-size: 16px;
+    color: #F79314;
+    background-color: #FCFAF5;
+    border-radius: 50px;
+    line-height: 93px;
+    text-align: center;
+    width: 93px;
+    height: 93px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.reason-box{
+    background-color: #FCFAF5;
+    border-radius: 30px;
+    height: 672px;
+    width: 1040px;
+    position: relative;
+    bottom: 46px;
+}
+.reason-text{
+    text-align: center;
+}
+.reason-text h2{
+    font-size: 28px;
+    padding-top: 28px;
+    padding-bottom: 37px;
+    position: relative;
+    z-index: 3;
+}
+.reason-text p{
+    font-size: 15px;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.reason2{
+    height: 495px;
+}
+.reason3{
+    height: 588px;
+}
+.reason-innerbox{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 48px;
+    height: 396px;
+    width: 960px;
+    text-align: center;
+    margin: 48px auto;
+    padding-right: 46px;
+    padding-left: 46px;
+}
+.example-title h2{
+    padding-top: 43px;
+    font-size: 25px;
+}
+.example-title img{
+    height: 37px;
+    margin-left: 14px;
+}
+.example-title h2:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 324px;/*線の上下位置*/
+    display: inline-block;
+    width: 212px;/*線の長さ*/
+    height: 4px;/*線の太さ*/
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #F79314;/*線の色*/
+}
+.example-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+/* 02多くの受講者受け入れ実績 */
+.reason-text span{
+    color:  #F79314;
+    font-size: 33px;
+    font-weight: bold;
+}
+.inner2{
+    height: 270px;
+    margin-top: 38px;
+}
+.date-img{
+    padding-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.date-img img{
+    height: 195px;
+}
+/* 03現役エンジニア講師 */
+.inner３{
+    width: 304px;
+    height: 364px;
+    background-color:white;
+    padding: 22px
+}
+.enginers{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.enginers-company{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.company1{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.company2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.company3{
+    padding-top: 17px;
+    padding-bottom: 32px;
+}
+.profile{
+    display: flex;
+}
+.enginner-img{
+    text-align: left;
+}
+.person-info{
+    text-align: left;
+    margin-left: 16px;
+}
+.company-name{
+    color: #F79314;
+    font-weight: bold;
+}
+.rails-enginner{
+    font-size: 18px;
+    font-weight: bold;
+}
+.message{
+    display: inline-block;
+    font-weight: bold;
+    text-align: left;
+    background-color: #F6F6F6;
+    padding: 22px 20px;
+    margin-top: 13px;
+    position: relative;
+    width: 260px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.message::before{
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: 14%;
+    margin-left: -15px;
+    border: 12px solid transparent;
+    border-bottom: 12px solid #F6F6F6;
+    z-index: 2;
+}
+
+/* ポテパンの選べるコース */
+.select-course{
+    height: 835px;
+    background-color: #F6F6F6;
+}
+.course-inner{
+    max-width: 1050px;
+    max-height: 835px;
+    margin: 0 auto;
+}
+.course-inner img{
+    display: block;
+    height: 267px;
+    position: relative;
+    top: 38px;
+    left: 768px;
+}
+.course-title {
+    display: inline;
+    position: relative;
+    top: -273px;
+}
+
+/* webアプリケーションコース */
+.aplication-course{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 4px solid #F79314;
+    text-align: center;
+    justify-content: center;
+    width: 290px;
+    height: 105px;
+    padding-top: 20px;
+    position: relative;
+    top: -415px;
+}
+.aplication-course a{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.aplication-course-textbox{
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    height: 170px;
+    width: 1040px;
+    position: relative;
+    top: -276px;
+    left: 17px;
+    padding-top: 32px;
+}
+.aplication-course-text{
+    position: relative;
+    top: -520px;
+    left: 328px;
+    width: 705px;
+    text-align: left;
+}
+.aplication-course-text a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color: #F79314;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+.conditions{
+    background-color: #414141;
+    color: white;
+    box-sizing: border-box;
+    width: 90px;
+    text-align: center;
+    font-size: 13px;
+    padding: 3px 17px;
+    border-radius: 20px;
+}
+.aplication-course-text h3{
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 12px;
+}
+.aplication-course-text h3::before{
+    content: "⚫︎";
+    font-size: 5px;
+    color: #F79314;
+}
+.go-to{
+    text-align: right;
+    font-size: 12px;
+    color: #999999;
+    font-weight: bold;
+}
+.go-to::after{
+    content: ">";
+    color: #F79314;
+    font-size: 20px;
+    margin-left: 10px;
+}
+    /* railsコース */
+.rails-textbox{
+    position: relative;
+    top: -185px;
+}
+.rails-box{ 
+    border: 4px solid #F75308;
+}
+.rails-text a{
+    color: #F75308;
+}
+.course-btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F79314;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    top: -460px;
+    left: 375px;
+}
+.course-btn span{
+    font-size: 20px;
+    letter-spacing: 2.5px;
+}
+
+/* MESSAGE */
+.miyazaki-message{
+    height: 782px;
+    background-color: #FCFAF5;
+}
+.miyazaki-message-inner{
+    max-width: 1050px;
+    margin: 0 auto;
+    
+}
+.message-title h1{
+    margin: 0;
+    padding-top: 90px;
+}
+.miyazaki-message-big{
+    color: #F79314;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.miyazaki-message-big{
+    position: relative;
+    z-index: 1;
+}
+.miyazaki-message-box{
+    background-color: white;
+    box-sizing: border-box;
+    width: 740px;
+    height: 412px;
+    padding: 47px 150px 45px 40px;
+    position: relative;
+    top: -30px;
+}
+.miyazaki-message-box p{
+    display: inline-block;
+    width: 550px;
+    font-size: 14px;
+    line-height: 2rem;
+}
+.miyazaki-message-box p:not(:first-child){
+    margin-top: 37px;
+}
+.miyazaki-flex{
+    display: flex;
+}
+.miyazaki-img{
+    display: inline-block;
+    justify-content: flex-end;
+    height: 240px;
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+
+/* 受講生の声 */
+.voice{
+    box-sizing: border-box;
+    height: 905px;
+    background-color: #FFFFFF;
+}
+.voice-inner{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.voice-content{
+    height: 445px;
+    display: flex;
+    width: 1050px;
+}
+.message-box{
+    width: 320px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 45px;
+}
+.student-img{
+    
+    display: block;
+    object-fit: cover;
+    height: 320px;
+    justify-content: center;
+}
+.positon-relative{
+    position: absolute;
+    top: 245px;
+    left: 20px;
+}
+
+.positon-relative h3{
+    font-size: 16px;
+    color: #F79314;
+    font-weight: bold;
+}
+hr{
+    width: 280px;
+    border: 1px solid white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.student-info h4{
+    font-size: 16px;
+    display: inline-block;
+    width: 67px;
+    color: white;
+}
+.student-info h4>span{
+    font-size: 18px;
+}
+.student-info h5{
+    font-size: 12px;
+    display: inline-block;
+    width: 170px;
+    margin-left: 17px;
+    color: white;
+}
+.message-box p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 2rem;
+}
+.interview-btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F79314;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: 370px;
+}
+.interview-btn span{
+    font-size: 20px;
+    letter-spacing: 2.5px;
+}
+
+/* ポテパン運営サービス */
+.service{
+    box-sizing: border-box;
+    height: 640px;
+    background-color: #F6F6F6;
+}
+.service-inner{
+    max-width: 1050px;
+    box-sizing: border-box;
+    height: 640px;
+    margin: 0 auto;
+    background-image: url(/img/bg-section-top-course.png);
+    background-repeat: no-repeat;
+    background-size: 280px 280px;
+    background-position: right top 10%;
+}
+.service-title h1{
+    padding-top: 80px;
+    font-weight: bold;
+}
+.service-contents{
+    height: 295px;
+    width: 1050px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.service-box{
+    display: inline-block;
+    width: 325px;
+    height: 295px;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+}
+.service-img{
+    display: inline-block;
+    height: 90px;
+    width: 280px;
+    padding: 55px 20px;
+    border: 3px solid #F79314;
+    border-radius: 10px;
+}
+.service2{
+    border-color: #09AF77;
+}
+.service3{
+    border-color: black;
+}
+.servive-text{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 2rem;
+}
+
+
+/* フッター */
+footer{
+    background-color: #F79314;
+    height: 465px;
+}
+.footer-contents{
+    max-width: 1050px;
+    box-sizing: border-box;
+    height: 465px;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+}
+.footer-left{
+    width: 285px;
+}
+.footer-logo{
+    width: 282px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.adress{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.adress-company{
+    margin-bottom: 12px;
+}
+.adress p{
+    margin-bottom: 36px;
+}
+.twitter, .facebook{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+.copy-right{
+    color: white;
+    font-size: 2px;
+    margin-top: 95px;
+}
+.footer-center{
+    width: 285px;
+    margin-left: 225px;
+}
+.footer-center h5{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+.footer-rigth{
+    box-sizing: border-box;
+    display: flex;
+    height: 310px;
+    width: 384px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.potepanda{
+    width: 122px;
+    height: 70px;
+}
